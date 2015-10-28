@@ -11,13 +11,13 @@ run one command to get 50 pages result from search engine with keyword, the resu
 
 
 #####Bing
-```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=bing -a pages=10```
+```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=bing -a pages=50```
 
 #####Baidu
-```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=baidu -a pages=10```
+```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=baidu -a pages=50```
 
 #####Google
-```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=google -a pages=10```
+```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=google -a pages=50```
 
 
 
