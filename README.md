@@ -22,9 +22,7 @@ run one command to get 50 pages result from search engine with keyword, the resu
 
 
 ## limitation
-it's a tool for collecting links of the search result of the search engine.
+The project doesn't provide any workaround to the anti-spider measure like CAPTCHA, IP ban list, etc. 
 
-it doesn't provide any workaround to the anti-spider measure like CAPTCHA, IP ban list, etc. 
-
-according to my test, Google set the most higher bar for spider to crawl its search result.
+According to my test, Google set the most higher bar for spider to crawl its search result, mostly it would redirect the spider to CAPTCHA page.
 
