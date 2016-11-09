@@ -19,10 +19,10 @@ run one command to get 50 pages result from search engine with keyword, the resu
 #####Google
 ```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=google -a pages=50```
 
-
-
 ## limitation
 The project doesn't provide any workaround to the anti-spider measure like CAPTCHA, IP ban list, etc. 
+
+But to reduce these measures, we recommand to use ```-s DOWNLOAD_DELAY=10``` to add a temporisation (in second) between the crawl of two pages.
 
 According to my test, Google set the most higher bar for spider to crawl its search result, mostly it would redirect the spider to CAPTCHA page.
 
